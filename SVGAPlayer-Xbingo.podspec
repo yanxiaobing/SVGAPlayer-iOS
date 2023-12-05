@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "SVGAPlayer-Xbingo"
-  s.version      = "10.0.0"
+  s.version      = "10.0.1"
   s.summary      = "SVGAPlayer 是一个高性能的动画播放器"
   s.description  = <<-DESC
                    SVGA 是一种全新的动画格式，由 YY UED 团队主导开发；
