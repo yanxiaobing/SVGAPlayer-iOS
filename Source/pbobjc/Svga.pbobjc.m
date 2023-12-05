@@ -14,6 +14,7 @@
 #endif
 
 #import "Svga.pbobjc.h"
+#include <libkern/OSAtomic.h>
 // @@protoc_insertion_point(imports)
 
 #pragma clang diagnostic push
