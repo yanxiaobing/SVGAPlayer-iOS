@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "SVGAPlayer-Xbingo"
-  s.version      = "10.0.1"
+  s.version      = "10.0.2"
   s.summary      = "SVGAPlayer 是一个高性能的动画播放器"
   s.description  = <<-DESC
                    SVGA 是一种全新的动画格式，由 YY UED 团队主导开发；
@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/yanxiaobing"
   s.license      = "Apache 2.0"
-  s.author       = { "Xbingo" => "cuiminghui1@yy.com" }
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => 'https://github.com/yanxiaobing/PanModal.git', :tag => "#{s.version}" }
+  s.author       = { "Xbingo" => "dove025@qq.com" }
+  s.platform     = :ios, "12.0"
+  s.source       = { :git => 'https://github.com/yanxiaobing/SVGAPlayer-iOS.git', :tag => "#{s.version}" }
   s.subspec 'Core' do |ss|
     ss.source_files  = "Source/*.{h,m}"
     ss.requires_arc = true
